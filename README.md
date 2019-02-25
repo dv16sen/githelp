@@ -4,7 +4,8 @@ Helpful git commands
 ### Setup without `git clone`
 1. `git init`
 2. `git remote add origin <origin>`
-3. `git branch set-upstream origin/master`
+3. `git pull origin master`
+4. `git branch set-upstream-to=origin/master`
 
 ### Revert/reset X commits
 `git revert/reset HEAD~X`
